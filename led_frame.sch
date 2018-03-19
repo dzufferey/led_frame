@@ -1,0 +1,1825 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:teensy-lc
+LIBS:LED
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Teensy-LC U?
+U 1 1 5AB0393B
+P 2600 8900
+F 0 "U?" H 3450 7650 60  0000 C CNN
+F 1 "Teensy-LC" H 2600 10050 60  0000 C CNN
+F 2 "" H 2825 8575 60  0001 C CNN
+F 3 "" H 2825 8575 60  0001 C CNN
+	1    2600 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AB03A40
+P 1900 1200
+F 0 "R?" V 1980 1200 50  0000 C CNN
+F 1 "100" V 1900 1200 50  0000 C CNN
+F 2 "" V 1830 1200 50  0001 C CNN
+F 3 "" H 1900 1200 50  0001 C CNN
+	1    1900 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB03B5F
+P 2350 1200
+F 0 "D?" H 2550 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 2400 975 50  0000 L TNN
+F 2 "" H 2400 900 50  0001 L TNN
+F 3 "" H 2450 825 50  0001 L TNN
+	1    2350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB03BB6
+P 2950 1200
+F 0 "D?" H 3150 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3000 975 50  0000 L TNN
+F 2 "" H 3000 900 50  0001 L TNN
+F 3 "" H 3050 825 50  0001 L TNN
+	1    2950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB04001
+P 3550 1200
+F 0 "D?" H 3750 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3600 975 50  0000 L TNN
+F 2 "" H 3600 900 50  0001 L TNN
+F 3 "" H 3650 825 50  0001 L TNN
+	1    3550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB04020
+P 4150 1200
+F 0 "D?" H 4350 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4200 975 50  0000 L TNN
+F 2 "" H 4200 900 50  0001 L TNN
+F 3 "" H 4250 825 50  0001 L TNN
+	1    4150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0404D
+P 4750 1200
+F 0 "D?" H 4950 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4800 975 50  0000 L TNN
+F 2 "" H 4800 900 50  0001 L TNN
+F 3 "" H 4850 825 50  0001 L TNN
+	1    4750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB04074
+P 5350 1200
+F 0 "D?" H 5550 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 5400 975 50  0000 L TNN
+F 2 "" H 5400 900 50  0001 L TNN
+F 3 "" H 5450 825 50  0001 L TNN
+	1    5350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB043F1
+P 5950 1200
+F 0 "D?" H 6150 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6000 975 50  0000 L TNN
+F 2 "" H 6000 900 50  0001 L TNN
+F 3 "" H 6050 825 50  0001 L TNN
+	1    5950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB04418
+P 6550 1200
+F 0 "D?" H 6750 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6600 975 50  0000 L TNN
+F 2 "" H 6600 900 50  0001 L TNN
+F 3 "" H 6650 825 50  0001 L TNN
+	1    6550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB04441
+P 7150 1200
+F 0 "D?" H 7350 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7200 975 50  0000 L TNN
+F 2 "" H 7200 900 50  0001 L TNN
+F 3 "" H 7250 825 50  0001 L TNN
+	1    7150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0446E
+P 7750 1200
+F 0 "D?" H 7950 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7800 975 50  0000 L TNN
+F 2 "" H 7800 900 50  0001 L TNN
+F 3 "" H 7850 825 50  0001 L TNN
+	1    7750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0449F
+P 8350 1200
+F 0 "D?" H 8550 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 8400 975 50  0000 L TNN
+F 2 "" H 8400 900 50  0001 L TNN
+F 3 "" H 8450 825 50  0001 L TNN
+	1    8350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB04AE6
+P 8950 1200
+F 0 "D?" H 9150 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9000 975 50  0000 L TNN
+F 2 "" H 9000 900 50  0001 L TNN
+F 3 "" H 9050 825 50  0001 L TNN
+	1    8950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB04B1B
+P 9550 1200
+F 0 "D?" H 9750 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9600 975 50  0000 L TNN
+F 2 "" H 9600 900 50  0001 L TNN
+F 3 "" H 9650 825 50  0001 L TNN
+	1    9550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB04B5E
+P 10150 1200
+F 0 "D?" H 10350 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10200 975 50  0000 L TNN
+F 2 "" H 10200 900 50  0001 L TNN
+F 3 "" H 10250 825 50  0001 L TNN
+	1    10150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB04BB3
+P 10750 1200
+F 0 "D?" H 10950 1425 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10800 975 50  0000 L TNN
+F 2 "" H 10800 900 50  0001 L TNN
+F 3 "" H 10850 825 50  0001 L TNN
+	1    10750 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 900  12050 900 
+Connection ~ 10150 900 
+Connection ~ 9550 900 
+Connection ~ 8950 900 
+Connection ~ 8350 900 
+Connection ~ 7750 900 
+Connection ~ 7150 900 
+Connection ~ 6550 900 
+Connection ~ 5950 900 
+Connection ~ 5350 900 
+Connection ~ 4750 900 
+Connection ~ 4150 900 
+Connection ~ 3550 900 
+Connection ~ 2950 900 
+Wire Wire Line
+	2350 1500 12550 1500
+Connection ~ 10150 1500
+Connection ~ 9550 1500
+Connection ~ 8950 1500
+Connection ~ 8350 1500
+Connection ~ 7750 1500
+Connection ~ 7150 1500
+Wire Wire Line
+	6550 1500 7150 1500
+Connection ~ 6550 1500
+Connection ~ 5950 1500
+Connection ~ 5350 1500
+Connection ~ 4750 1500
+Connection ~ 4150 1500
+Connection ~ 3550 1500
+Connection ~ 2950 1500
+Wire Wire Line
+	950  1200 1750 1200
+$Comp
+L R R?
+U 1 1 5AB0966E
+P 1900 1900
+F 0 "R?" V 1980 1900 50  0000 C CNN
+F 1 "100" V 1900 1900 50  0000 C CNN
+F 2 "" V 1830 1900 50  0001 C CNN
+F 3 "" H 1900 1900 50  0001 C CNN
+	1    1900 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB09674
+P 2350 1900
+F 0 "D?" H 2550 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 2400 1675 50  0000 L TNN
+F 2 "" H 2400 1600 50  0001 L TNN
+F 3 "" H 2450 1525 50  0001 L TNN
+	1    2350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0967A
+P 2950 1900
+F 0 "D?" H 3150 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3000 1675 50  0000 L TNN
+F 2 "" H 3000 1600 50  0001 L TNN
+F 3 "" H 3050 1525 50  0001 L TNN
+	1    2950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB09680
+P 3550 1900
+F 0 "D?" H 3750 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3600 1675 50  0000 L TNN
+F 2 "" H 3600 1600 50  0001 L TNN
+F 3 "" H 3650 1525 50  0001 L TNN
+	1    3550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB09686
+P 4150 1900
+F 0 "D?" H 4350 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4200 1675 50  0000 L TNN
+F 2 "" H 4200 1600 50  0001 L TNN
+F 3 "" H 4250 1525 50  0001 L TNN
+	1    4150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0968C
+P 4750 1900
+F 0 "D?" H 4950 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4800 1675 50  0000 L TNN
+F 2 "" H 4800 1600 50  0001 L TNN
+F 3 "" H 4850 1525 50  0001 L TNN
+	1    4750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB09692
+P 5350 1900
+F 0 "D?" H 5550 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 5400 1675 50  0000 L TNN
+F 2 "" H 5400 1600 50  0001 L TNN
+F 3 "" H 5450 1525 50  0001 L TNN
+	1    5350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB09698
+P 5950 1900
+F 0 "D?" H 6150 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6000 1675 50  0000 L TNN
+F 2 "" H 6000 1600 50  0001 L TNN
+F 3 "" H 6050 1525 50  0001 L TNN
+	1    5950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0969E
+P 6550 1900
+F 0 "D?" H 6750 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6600 1675 50  0000 L TNN
+F 2 "" H 6600 1600 50  0001 L TNN
+F 3 "" H 6650 1525 50  0001 L TNN
+	1    6550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB096A4
+P 7150 1900
+F 0 "D?" H 7350 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7200 1675 50  0000 L TNN
+F 2 "" H 7200 1600 50  0001 L TNN
+F 3 "" H 7250 1525 50  0001 L TNN
+	1    7150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB096AA
+P 7750 1900
+F 0 "D?" H 7950 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7800 1675 50  0000 L TNN
+F 2 "" H 7800 1600 50  0001 L TNN
+F 3 "" H 7850 1525 50  0001 L TNN
+	1    7750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB096B0
+P 8350 1900
+F 0 "D?" H 8550 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 8400 1675 50  0000 L TNN
+F 2 "" H 8400 1600 50  0001 L TNN
+F 3 "" H 8450 1525 50  0001 L TNN
+	1    8350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB096B6
+P 8950 1900
+F 0 "D?" H 9150 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9000 1675 50  0000 L TNN
+F 2 "" H 9000 1600 50  0001 L TNN
+F 3 "" H 9050 1525 50  0001 L TNN
+	1    8950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB096BC
+P 9550 1900
+F 0 "D?" H 9750 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9600 1675 50  0000 L TNN
+F 2 "" H 9600 1600 50  0001 L TNN
+F 3 "" H 9650 1525 50  0001 L TNN
+	1    9550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB096C2
+P 10150 1900
+F 0 "D?" H 10350 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10200 1675 50  0000 L TNN
+F 2 "" H 10200 1600 50  0001 L TNN
+F 3 "" H 10250 1525 50  0001 L TNN
+	1    10150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB096C8
+P 10750 1900
+F 0 "D?" H 10950 2125 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10800 1675 50  0000 L TNN
+F 2 "" H 10800 1600 50  0001 L TNN
+F 3 "" H 10850 1525 50  0001 L TNN
+	1    10750 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1600 12050 1600
+Connection ~ 10150 1600
+Connection ~ 9550 1600
+Connection ~ 8950 1600
+Connection ~ 8350 1600
+Connection ~ 7750 1600
+Connection ~ 7150 1600
+Connection ~ 6550 1600
+Connection ~ 5950 1600
+Connection ~ 5350 1600
+Connection ~ 4750 1600
+Connection ~ 4150 1600
+Connection ~ 3550 1600
+Connection ~ 2950 1600
+Wire Wire Line
+	2350 2200 12550 2200
+Connection ~ 10150 2200
+Connection ~ 9550 2200
+Connection ~ 8950 2200
+Connection ~ 8350 2200
+Connection ~ 7750 2200
+Connection ~ 7150 2200
+Wire Wire Line
+	6550 2200 7150 2200
+Connection ~ 6550 2200
+Connection ~ 5950 2200
+Connection ~ 5350 2200
+Connection ~ 4750 2200
+Connection ~ 4150 2200
+Connection ~ 3550 2200
+Connection ~ 2950 2200
+$Comp
+L R R?
+U 1 1 5AB0A74E
+P 1900 2600
+F 0 "R?" V 1980 2600 50  0000 C CNN
+F 1 "100" V 1900 2600 50  0000 C CNN
+F 2 "" V 1830 2600 50  0001 C CNN
+F 3 "" H 1900 2600 50  0001 C CNN
+	1    1900 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A754
+P 2350 2600
+F 0 "D?" H 2550 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 2400 2375 50  0000 L TNN
+F 2 "" H 2400 2300 50  0001 L TNN
+F 3 "" H 2450 2225 50  0001 L TNN
+	1    2350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A75A
+P 2950 2600
+F 0 "D?" H 3150 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3000 2375 50  0000 L TNN
+F 2 "" H 3000 2300 50  0001 L TNN
+F 3 "" H 3050 2225 50  0001 L TNN
+	1    2950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A760
+P 3550 2600
+F 0 "D?" H 3750 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3600 2375 50  0000 L TNN
+F 2 "" H 3600 2300 50  0001 L TNN
+F 3 "" H 3650 2225 50  0001 L TNN
+	1    3550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A766
+P 4150 2600
+F 0 "D?" H 4350 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4200 2375 50  0000 L TNN
+F 2 "" H 4200 2300 50  0001 L TNN
+F 3 "" H 4250 2225 50  0001 L TNN
+	1    4150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A76C
+P 4750 2600
+F 0 "D?" H 4950 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4800 2375 50  0000 L TNN
+F 2 "" H 4800 2300 50  0001 L TNN
+F 3 "" H 4850 2225 50  0001 L TNN
+	1    4750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A772
+P 5350 2600
+F 0 "D?" H 5550 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 5400 2375 50  0000 L TNN
+F 2 "" H 5400 2300 50  0001 L TNN
+F 3 "" H 5450 2225 50  0001 L TNN
+	1    5350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A778
+P 5950 2600
+F 0 "D?" H 6150 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6000 2375 50  0000 L TNN
+F 2 "" H 6000 2300 50  0001 L TNN
+F 3 "" H 6050 2225 50  0001 L TNN
+	1    5950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A77E
+P 6550 2600
+F 0 "D?" H 6750 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6600 2375 50  0000 L TNN
+F 2 "" H 6600 2300 50  0001 L TNN
+F 3 "" H 6650 2225 50  0001 L TNN
+	1    6550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A784
+P 7150 2600
+F 0 "D?" H 7350 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7200 2375 50  0000 L TNN
+F 2 "" H 7200 2300 50  0001 L TNN
+F 3 "" H 7250 2225 50  0001 L TNN
+	1    7150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A78A
+P 7750 2600
+F 0 "D?" H 7950 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7800 2375 50  0000 L TNN
+F 2 "" H 7800 2300 50  0001 L TNN
+F 3 "" H 7850 2225 50  0001 L TNN
+	1    7750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A790
+P 8350 2600
+F 0 "D?" H 8550 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 8400 2375 50  0000 L TNN
+F 2 "" H 8400 2300 50  0001 L TNN
+F 3 "" H 8450 2225 50  0001 L TNN
+	1    8350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A796
+P 8950 2600
+F 0 "D?" H 9150 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9000 2375 50  0000 L TNN
+F 2 "" H 9000 2300 50  0001 L TNN
+F 3 "" H 9050 2225 50  0001 L TNN
+	1    8950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A79C
+P 9550 2600
+F 0 "D?" H 9750 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9600 2375 50  0000 L TNN
+F 2 "" H 9600 2300 50  0001 L TNN
+F 3 "" H 9650 2225 50  0001 L TNN
+	1    9550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A7A2
+P 10150 2600
+F 0 "D?" H 10350 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10200 2375 50  0000 L TNN
+F 2 "" H 10200 2300 50  0001 L TNN
+F 3 "" H 10250 2225 50  0001 L TNN
+	1    10150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A7A8
+P 10750 2600
+F 0 "D?" H 10950 2825 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10800 2375 50  0000 L TNN
+F 2 "" H 10800 2300 50  0001 L TNN
+F 3 "" H 10850 2225 50  0001 L TNN
+	1    10750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 2300 2350 2300
+Connection ~ 10150 2300
+Connection ~ 9550 2300
+Connection ~ 8950 2300
+Connection ~ 8350 2300
+Connection ~ 7750 2300
+Connection ~ 7150 2300
+Connection ~ 6550 2300
+Connection ~ 5950 2300
+Connection ~ 5350 2300
+Connection ~ 4750 2300
+Connection ~ 4150 2300
+Connection ~ 3550 2300
+Connection ~ 2950 2300
+Wire Wire Line
+	12550 2900 2350 2900
+Connection ~ 10150 2900
+Connection ~ 9550 2900
+Connection ~ 8950 2900
+Connection ~ 8350 2900
+Connection ~ 7750 2900
+Connection ~ 7150 2900
+Wire Wire Line
+	6550 2900 7150 2900
+Connection ~ 6550 2900
+Connection ~ 5950 2900
+Connection ~ 5350 2900
+Connection ~ 4750 2900
+Connection ~ 4150 2900
+Connection ~ 3550 2900
+Connection ~ 2950 2900
+$Comp
+L R R?
+U 1 1 5AB0A7CC
+P 1900 3300
+F 0 "R?" V 1980 3300 50  0000 C CNN
+F 1 "100" V 1900 3300 50  0000 C CNN
+F 2 "" V 1830 3300 50  0001 C CNN
+F 3 "" H 1900 3300 50  0001 C CNN
+	1    1900 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A7D2
+P 2350 3300
+F 0 "D?" H 2550 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 2400 3075 50  0000 L TNN
+F 2 "" H 2400 3000 50  0001 L TNN
+F 3 "" H 2450 2925 50  0001 L TNN
+	1    2350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A7D8
+P 2950 3300
+F 0 "D?" H 3150 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3000 3075 50  0000 L TNN
+F 2 "" H 3000 3000 50  0001 L TNN
+F 3 "" H 3050 2925 50  0001 L TNN
+	1    2950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A7DE
+P 3550 3300
+F 0 "D?" H 3750 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3600 3075 50  0000 L TNN
+F 2 "" H 3600 3000 50  0001 L TNN
+F 3 "" H 3650 2925 50  0001 L TNN
+	1    3550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A7E4
+P 4150 3300
+F 0 "D?" H 4350 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4200 3075 50  0000 L TNN
+F 2 "" H 4200 3000 50  0001 L TNN
+F 3 "" H 4250 2925 50  0001 L TNN
+	1    4150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A7EA
+P 4750 3300
+F 0 "D?" H 4950 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4800 3075 50  0000 L TNN
+F 2 "" H 4800 3000 50  0001 L TNN
+F 3 "" H 4850 2925 50  0001 L TNN
+	1    4750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A7F0
+P 5350 3300
+F 0 "D?" H 5550 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 5400 3075 50  0000 L TNN
+F 2 "" H 5400 3000 50  0001 L TNN
+F 3 "" H 5450 2925 50  0001 L TNN
+	1    5350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A7F6
+P 5950 3300
+F 0 "D?" H 6150 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6000 3075 50  0000 L TNN
+F 2 "" H 6000 3000 50  0001 L TNN
+F 3 "" H 6050 2925 50  0001 L TNN
+	1    5950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A7FC
+P 6550 3300
+F 0 "D?" H 6750 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6600 3075 50  0000 L TNN
+F 2 "" H 6600 3000 50  0001 L TNN
+F 3 "" H 6650 2925 50  0001 L TNN
+	1    6550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A802
+P 7150 3300
+F 0 "D?" H 7350 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7200 3075 50  0000 L TNN
+F 2 "" H 7200 3000 50  0001 L TNN
+F 3 "" H 7250 2925 50  0001 L TNN
+	1    7150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A808
+P 7750 3300
+F 0 "D?" H 7950 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7800 3075 50  0000 L TNN
+F 2 "" H 7800 3000 50  0001 L TNN
+F 3 "" H 7850 2925 50  0001 L TNN
+	1    7750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A80E
+P 8350 3300
+F 0 "D?" H 8550 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 8400 3075 50  0000 L TNN
+F 2 "" H 8400 3000 50  0001 L TNN
+F 3 "" H 8450 2925 50  0001 L TNN
+	1    8350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A814
+P 8950 3300
+F 0 "D?" H 9150 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9000 3075 50  0000 L TNN
+F 2 "" H 9000 3000 50  0001 L TNN
+F 3 "" H 9050 2925 50  0001 L TNN
+	1    8950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A81A
+P 9550 3300
+F 0 "D?" H 9750 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9600 3075 50  0000 L TNN
+F 2 "" H 9600 3000 50  0001 L TNN
+F 3 "" H 9650 2925 50  0001 L TNN
+	1    9550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A820
+P 10150 3300
+F 0 "D?" H 10350 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10200 3075 50  0000 L TNN
+F 2 "" H 10200 3000 50  0001 L TNN
+F 3 "" H 10250 2925 50  0001 L TNN
+	1    10150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0A826
+P 10750 3300
+F 0 "D?" H 10950 3525 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10800 3075 50  0000 L TNN
+F 2 "" H 10800 3000 50  0001 L TNN
+F 3 "" H 10850 2925 50  0001 L TNN
+	1    10750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 3000 2350 3000
+Connection ~ 10150 3000
+Connection ~ 9550 3000
+Connection ~ 8950 3000
+Connection ~ 8350 3000
+Connection ~ 7750 3000
+Connection ~ 7150 3000
+Connection ~ 6550 3000
+Connection ~ 5950 3000
+Connection ~ 5350 3000
+Connection ~ 4750 3000
+Connection ~ 4150 3000
+Connection ~ 3550 3000
+Connection ~ 2950 3000
+Wire Wire Line
+	12550 3600 2350 3600
+Connection ~ 10150 3600
+Connection ~ 9550 3600
+Connection ~ 8950 3600
+Connection ~ 8350 3600
+Connection ~ 7750 3600
+Connection ~ 7150 3600
+Wire Wire Line
+	6550 3600 7150 3600
+Connection ~ 6550 3600
+Connection ~ 5950 3600
+Connection ~ 5350 3600
+Connection ~ 4750 3600
+Connection ~ 4150 3600
+Connection ~ 3550 3600
+Connection ~ 2950 3600
+$Comp
+L R R?
+U 1 1 5AB0C845
+P 1900 3950
+F 0 "R?" V 1980 3950 50  0000 C CNN
+F 1 "100" V 1900 3950 50  0000 C CNN
+F 2 "" V 1830 3950 50  0001 C CNN
+F 3 "" H 1900 3950 50  0001 C CNN
+	1    1900 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C84B
+P 2350 3950
+F 0 "D?" H 2550 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 2400 3725 50  0000 L TNN
+F 2 "" H 2400 3650 50  0001 L TNN
+F 3 "" H 2450 3575 50  0001 L TNN
+	1    2350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C851
+P 2950 3950
+F 0 "D?" H 3150 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3000 3725 50  0000 L TNN
+F 2 "" H 3000 3650 50  0001 L TNN
+F 3 "" H 3050 3575 50  0001 L TNN
+	1    2950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C857
+P 3550 3950
+F 0 "D?" H 3750 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3600 3725 50  0000 L TNN
+F 2 "" H 3600 3650 50  0001 L TNN
+F 3 "" H 3650 3575 50  0001 L TNN
+	1    3550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C85D
+P 4150 3950
+F 0 "D?" H 4350 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4200 3725 50  0000 L TNN
+F 2 "" H 4200 3650 50  0001 L TNN
+F 3 "" H 4250 3575 50  0001 L TNN
+	1    4150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C863
+P 4750 3950
+F 0 "D?" H 4950 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4800 3725 50  0000 L TNN
+F 2 "" H 4800 3650 50  0001 L TNN
+F 3 "" H 4850 3575 50  0001 L TNN
+	1    4750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C869
+P 5350 3950
+F 0 "D?" H 5550 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 5400 3725 50  0000 L TNN
+F 2 "" H 5400 3650 50  0001 L TNN
+F 3 "" H 5450 3575 50  0001 L TNN
+	1    5350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C86F
+P 5950 3950
+F 0 "D?" H 6150 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6000 3725 50  0000 L TNN
+F 2 "" H 6000 3650 50  0001 L TNN
+F 3 "" H 6050 3575 50  0001 L TNN
+	1    5950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C875
+P 6550 3950
+F 0 "D?" H 6750 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6600 3725 50  0000 L TNN
+F 2 "" H 6600 3650 50  0001 L TNN
+F 3 "" H 6650 3575 50  0001 L TNN
+	1    6550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C87B
+P 7150 3950
+F 0 "D?" H 7350 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7200 3725 50  0000 L TNN
+F 2 "" H 7200 3650 50  0001 L TNN
+F 3 "" H 7250 3575 50  0001 L TNN
+	1    7150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C881
+P 7750 3950
+F 0 "D?" H 7950 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7800 3725 50  0000 L TNN
+F 2 "" H 7800 3650 50  0001 L TNN
+F 3 "" H 7850 3575 50  0001 L TNN
+	1    7750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C887
+P 8350 3950
+F 0 "D?" H 8550 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 8400 3725 50  0000 L TNN
+F 2 "" H 8400 3650 50  0001 L TNN
+F 3 "" H 8450 3575 50  0001 L TNN
+	1    8350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C88D
+P 8950 3950
+F 0 "D?" H 9150 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9000 3725 50  0000 L TNN
+F 2 "" H 9000 3650 50  0001 L TNN
+F 3 "" H 9050 3575 50  0001 L TNN
+	1    8950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C893
+P 9550 3950
+F 0 "D?" H 9750 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9600 3725 50  0000 L TNN
+F 2 "" H 9600 3650 50  0001 L TNN
+F 3 "" H 9650 3575 50  0001 L TNN
+	1    9550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C899
+P 10150 3950
+F 0 "D?" H 10350 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10200 3725 50  0000 L TNN
+F 2 "" H 10200 3650 50  0001 L TNN
+F 3 "" H 10250 3575 50  0001 L TNN
+	1    10150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C89F
+P 10750 3950
+F 0 "D?" H 10950 4175 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10800 3725 50  0000 L TNN
+F 2 "" H 10800 3650 50  0001 L TNN
+F 3 "" H 10850 3575 50  0001 L TNN
+	1    10750 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 3650 2350 3650
+Connection ~ 10150 3650
+Connection ~ 9550 3650
+Connection ~ 8950 3650
+Connection ~ 8350 3650
+Connection ~ 7750 3650
+Connection ~ 7150 3650
+Connection ~ 6550 3650
+Connection ~ 5950 3650
+Connection ~ 5350 3650
+Connection ~ 4750 3650
+Connection ~ 4150 3650
+Connection ~ 3550 3650
+Connection ~ 2950 3650
+Wire Wire Line
+	12550 4250 2350 4250
+Connection ~ 10150 4250
+Connection ~ 9550 4250
+Connection ~ 8950 4250
+Connection ~ 8350 4250
+Connection ~ 7750 4250
+Connection ~ 7150 4250
+Wire Wire Line
+	6550 4250 7150 4250
+Connection ~ 6550 4250
+Connection ~ 5950 4250
+Connection ~ 5350 4250
+Connection ~ 4750 4250
+Connection ~ 4150 4250
+Connection ~ 3550 4250
+Connection ~ 2950 4250
+$Comp
+L R R?
+U 1 1 5AB0C8DD
+P 1900 4650
+F 0 "R?" V 1980 4650 50  0000 C CNN
+F 1 "100" V 1900 4650 50  0000 C CNN
+F 2 "" V 1830 4650 50  0001 C CNN
+F 3 "" H 1900 4650 50  0001 C CNN
+	1    1900 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C8E3
+P 2350 4650
+F 0 "D?" H 2550 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 2400 4425 50  0000 L TNN
+F 2 "" H 2400 4350 50  0001 L TNN
+F 3 "" H 2450 4275 50  0001 L TNN
+	1    2350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C8E9
+P 2950 4650
+F 0 "D?" H 3150 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3000 4425 50  0000 L TNN
+F 2 "" H 3000 4350 50  0001 L TNN
+F 3 "" H 3050 4275 50  0001 L TNN
+	1    2950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C8EF
+P 3550 4650
+F 0 "D?" H 3750 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3600 4425 50  0000 L TNN
+F 2 "" H 3600 4350 50  0001 L TNN
+F 3 "" H 3650 4275 50  0001 L TNN
+	1    3550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C8F5
+P 4150 4650
+F 0 "D?" H 4350 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4200 4425 50  0000 L TNN
+F 2 "" H 4200 4350 50  0001 L TNN
+F 3 "" H 4250 4275 50  0001 L TNN
+	1    4150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C8FB
+P 4750 4650
+F 0 "D?" H 4950 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4800 4425 50  0000 L TNN
+F 2 "" H 4800 4350 50  0001 L TNN
+F 3 "" H 4850 4275 50  0001 L TNN
+	1    4750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C901
+P 5350 4650
+F 0 "D?" H 5550 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 5400 4425 50  0000 L TNN
+F 2 "" H 5400 4350 50  0001 L TNN
+F 3 "" H 5450 4275 50  0001 L TNN
+	1    5350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C907
+P 5950 4650
+F 0 "D?" H 6150 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6000 4425 50  0000 L TNN
+F 2 "" H 6000 4350 50  0001 L TNN
+F 3 "" H 6050 4275 50  0001 L TNN
+	1    5950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C90D
+P 6550 4650
+F 0 "D?" H 6750 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6600 4425 50  0000 L TNN
+F 2 "" H 6600 4350 50  0001 L TNN
+F 3 "" H 6650 4275 50  0001 L TNN
+	1    6550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C913
+P 7150 4650
+F 0 "D?" H 7350 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7200 4425 50  0000 L TNN
+F 2 "" H 7200 4350 50  0001 L TNN
+F 3 "" H 7250 4275 50  0001 L TNN
+	1    7150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C919
+P 7750 4650
+F 0 "D?" H 7950 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7800 4425 50  0000 L TNN
+F 2 "" H 7800 4350 50  0001 L TNN
+F 3 "" H 7850 4275 50  0001 L TNN
+	1    7750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C91F
+P 8350 4650
+F 0 "D?" H 8550 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 8400 4425 50  0000 L TNN
+F 2 "" H 8400 4350 50  0001 L TNN
+F 3 "" H 8450 4275 50  0001 L TNN
+	1    8350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C925
+P 8950 4650
+F 0 "D?" H 9150 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9000 4425 50  0000 L TNN
+F 2 "" H 9000 4350 50  0001 L TNN
+F 3 "" H 9050 4275 50  0001 L TNN
+	1    8950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C92B
+P 9550 4650
+F 0 "D?" H 9750 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9600 4425 50  0000 L TNN
+F 2 "" H 9600 4350 50  0001 L TNN
+F 3 "" H 9650 4275 50  0001 L TNN
+	1    9550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C931
+P 10150 4650
+F 0 "D?" H 10350 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10200 4425 50  0000 L TNN
+F 2 "" H 10200 4350 50  0001 L TNN
+F 3 "" H 10250 4275 50  0001 L TNN
+	1    10150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C937
+P 10750 4650
+F 0 "D?" H 10950 4875 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10800 4425 50  0000 L TNN
+F 2 "" H 10800 4350 50  0001 L TNN
+F 3 "" H 10850 4275 50  0001 L TNN
+	1    10750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 4350 2350 4350
+Connection ~ 10150 4350
+Connection ~ 9550 4350
+Connection ~ 8950 4350
+Connection ~ 8350 4350
+Connection ~ 7750 4350
+Connection ~ 7150 4350
+Connection ~ 6550 4350
+Connection ~ 5950 4350
+Connection ~ 5350 4350
+Connection ~ 4750 4350
+Connection ~ 4150 4350
+Connection ~ 3550 4350
+Connection ~ 2950 4350
+Wire Wire Line
+	12550 4950 2350 4950
+Connection ~ 10150 4950
+Connection ~ 9550 4950
+Connection ~ 8950 4950
+Connection ~ 8350 4950
+Connection ~ 7750 4950
+Connection ~ 7150 4950
+Wire Wire Line
+	6550 4950 7150 4950
+Connection ~ 6550 4950
+Connection ~ 5950 4950
+Connection ~ 5350 4950
+Connection ~ 4750 4950
+Connection ~ 4150 4950
+Connection ~ 3550 4950
+Connection ~ 2950 4950
+$Comp
+L R R?
+U 1 1 5AB0C974
+P 1900 5350
+F 0 "R?" V 1980 5350 50  0000 C CNN
+F 1 "100" V 1900 5350 50  0000 C CNN
+F 2 "" V 1830 5350 50  0001 C CNN
+F 3 "" H 1900 5350 50  0001 C CNN
+	1    1900 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C97A
+P 2350 5350
+F 0 "D?" H 2550 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 2400 5125 50  0000 L TNN
+F 2 "" H 2400 5050 50  0001 L TNN
+F 3 "" H 2450 4975 50  0001 L TNN
+	1    2350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C980
+P 2950 5350
+F 0 "D?" H 3150 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3000 5125 50  0000 L TNN
+F 2 "" H 3000 5050 50  0001 L TNN
+F 3 "" H 3050 4975 50  0001 L TNN
+	1    2950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C986
+P 3550 5350
+F 0 "D?" H 3750 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3600 5125 50  0000 L TNN
+F 2 "" H 3600 5050 50  0001 L TNN
+F 3 "" H 3650 4975 50  0001 L TNN
+	1    3550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C98C
+P 4150 5350
+F 0 "D?" H 4350 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4200 5125 50  0000 L TNN
+F 2 "" H 4200 5050 50  0001 L TNN
+F 3 "" H 4250 4975 50  0001 L TNN
+	1    4150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C992
+P 4750 5350
+F 0 "D?" H 4950 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4800 5125 50  0000 L TNN
+F 2 "" H 4800 5050 50  0001 L TNN
+F 3 "" H 4850 4975 50  0001 L TNN
+	1    4750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C998
+P 5350 5350
+F 0 "D?" H 5550 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 5400 5125 50  0000 L TNN
+F 2 "" H 5400 5050 50  0001 L TNN
+F 3 "" H 5450 4975 50  0001 L TNN
+	1    5350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C99E
+P 5950 5350
+F 0 "D?" H 6150 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6000 5125 50  0000 L TNN
+F 2 "" H 6000 5050 50  0001 L TNN
+F 3 "" H 6050 4975 50  0001 L TNN
+	1    5950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C9A4
+P 6550 5350
+F 0 "D?" H 6750 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6600 5125 50  0000 L TNN
+F 2 "" H 6600 5050 50  0001 L TNN
+F 3 "" H 6650 4975 50  0001 L TNN
+	1    6550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C9AA
+P 7150 5350
+F 0 "D?" H 7350 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7200 5125 50  0000 L TNN
+F 2 "" H 7200 5050 50  0001 L TNN
+F 3 "" H 7250 4975 50  0001 L TNN
+	1    7150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C9B0
+P 7750 5350
+F 0 "D?" H 7950 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7800 5125 50  0000 L TNN
+F 2 "" H 7800 5050 50  0001 L TNN
+F 3 "" H 7850 4975 50  0001 L TNN
+	1    7750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C9B6
+P 8350 5350
+F 0 "D?" H 8550 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 8400 5125 50  0000 L TNN
+F 2 "" H 8400 5050 50  0001 L TNN
+F 3 "" H 8450 4975 50  0001 L TNN
+	1    8350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C9BC
+P 8950 5350
+F 0 "D?" H 9150 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9000 5125 50  0000 L TNN
+F 2 "" H 9000 5050 50  0001 L TNN
+F 3 "" H 9050 4975 50  0001 L TNN
+	1    8950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C9C2
+P 9550 5350
+F 0 "D?" H 9750 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9600 5125 50  0000 L TNN
+F 2 "" H 9600 5050 50  0001 L TNN
+F 3 "" H 9650 4975 50  0001 L TNN
+	1    9550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C9C8
+P 10150 5350
+F 0 "D?" H 10350 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10200 5125 50  0000 L TNN
+F 2 "" H 10200 5050 50  0001 L TNN
+F 3 "" H 10250 4975 50  0001 L TNN
+	1    10150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0C9CE
+P 10750 5350
+F 0 "D?" H 10950 5575 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10800 5125 50  0000 L TNN
+F 2 "" H 10800 5050 50  0001 L TNN
+F 3 "" H 10850 4975 50  0001 L TNN
+	1    10750 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 5050 2350 5050
+Connection ~ 10150 5050
+Connection ~ 9550 5050
+Connection ~ 8950 5050
+Connection ~ 8350 5050
+Connection ~ 7750 5050
+Connection ~ 7150 5050
+Connection ~ 6550 5050
+Connection ~ 5950 5050
+Connection ~ 5350 5050
+Connection ~ 4750 5050
+Connection ~ 4150 5050
+Connection ~ 3550 5050
+Connection ~ 2950 5050
+Wire Wire Line
+	12550 5650 2350 5650
+Connection ~ 10150 5650
+Connection ~ 9550 5650
+Connection ~ 8950 5650
+Connection ~ 8350 5650
+Connection ~ 7750 5650
+Connection ~ 7150 5650
+Wire Wire Line
+	6550 5650 7150 5650
+Connection ~ 6550 5650
+Connection ~ 5950 5650
+Connection ~ 5350 5650
+Connection ~ 4750 5650
+Connection ~ 4150 5650
+Connection ~ 3550 5650
+Connection ~ 2950 5650
+$Comp
+L R R?
+U 1 1 5AB0CA0B
+P 1900 6050
+F 0 "R?" V 1980 6050 50  0000 C CNN
+F 1 "100" V 1900 6050 50  0000 C CNN
+F 2 "" V 1830 6050 50  0001 C CNN
+F 3 "" H 1900 6050 50  0001 C CNN
+	1    1900 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA11
+P 2350 6050
+F 0 "D?" H 2550 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 2400 5825 50  0000 L TNN
+F 2 "" H 2400 5750 50  0001 L TNN
+F 3 "" H 2450 5675 50  0001 L TNN
+	1    2350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA17
+P 2950 6050
+F 0 "D?" H 3150 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3000 5825 50  0000 L TNN
+F 2 "" H 3000 5750 50  0001 L TNN
+F 3 "" H 3050 5675 50  0001 L TNN
+	1    2950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA1D
+P 3550 6050
+F 0 "D?" H 3750 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 3600 5825 50  0000 L TNN
+F 2 "" H 3600 5750 50  0001 L TNN
+F 3 "" H 3650 5675 50  0001 L TNN
+	1    3550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA23
+P 4150 6050
+F 0 "D?" H 4350 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4200 5825 50  0000 L TNN
+F 2 "" H 4200 5750 50  0001 L TNN
+F 3 "" H 4250 5675 50  0001 L TNN
+	1    4150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA29
+P 4750 6050
+F 0 "D?" H 4950 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 4800 5825 50  0000 L TNN
+F 2 "" H 4800 5750 50  0001 L TNN
+F 3 "" H 4850 5675 50  0001 L TNN
+	1    4750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA2F
+P 5350 6050
+F 0 "D?" H 5550 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 5400 5825 50  0000 L TNN
+F 2 "" H 5400 5750 50  0001 L TNN
+F 3 "" H 5450 5675 50  0001 L TNN
+	1    5350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA35
+P 5950 6050
+F 0 "D?" H 6150 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6000 5825 50  0000 L TNN
+F 2 "" H 6000 5750 50  0001 L TNN
+F 3 "" H 6050 5675 50  0001 L TNN
+	1    5950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA3B
+P 6550 6050
+F 0 "D?" H 6750 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 6600 5825 50  0000 L TNN
+F 2 "" H 6600 5750 50  0001 L TNN
+F 3 "" H 6650 5675 50  0001 L TNN
+	1    6550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA41
+P 7150 6050
+F 0 "D?" H 7350 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7200 5825 50  0000 L TNN
+F 2 "" H 7200 5750 50  0001 L TNN
+F 3 "" H 7250 5675 50  0001 L TNN
+	1    7150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA47
+P 7750 6050
+F 0 "D?" H 7950 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 7800 5825 50  0000 L TNN
+F 2 "" H 7800 5750 50  0001 L TNN
+F 3 "" H 7850 5675 50  0001 L TNN
+	1    7750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA4D
+P 8350 6050
+F 0 "D?" H 8550 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 8400 5825 50  0000 L TNN
+F 2 "" H 8400 5750 50  0001 L TNN
+F 3 "" H 8450 5675 50  0001 L TNN
+	1    8350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA53
+P 8950 6050
+F 0 "D?" H 9150 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9000 5825 50  0000 L TNN
+F 2 "" H 9000 5750 50  0001 L TNN
+F 3 "" H 9050 5675 50  0001 L TNN
+	1    8950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA59
+P 9550 6050
+F 0 "D?" H 9750 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 9600 5825 50  0000 L TNN
+F 2 "" H 9600 5750 50  0001 L TNN
+F 3 "" H 9650 5675 50  0001 L TNN
+	1    9550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA5F
+P 10150 6050
+F 0 "D?" H 10350 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10200 5825 50  0000 L TNN
+F 2 "" H 10200 5750 50  0001 L TNN
+F 3 "" H 10250 5675 50  0001 L TNN
+	1    10150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NeoPixel_THT D?
+U 1 1 5AB0CA65
+P 10750 6050
+F 0 "D?" H 10950 6275 50  0000 R BNN
+F 1 "NeoPixel_THT" H 10800 5825 50  0000 L TNN
+F 2 "" H 10800 5750 50  0001 L TNN
+F 3 "" H 10850 5675 50  0001 L TNN
+	1    10750 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 5750 2350 5750
+Connection ~ 10150 5750
+Connection ~ 9550 5750
+Connection ~ 8950 5750
+Connection ~ 8350 5750
+Connection ~ 7750 5750
+Connection ~ 7150 5750
+Connection ~ 6550 5750
+Connection ~ 5950 5750
+Connection ~ 5350 5750
+Connection ~ 4750 5750
+Connection ~ 4150 5750
+Connection ~ 3550 5750
+Connection ~ 2950 5750
+Wire Wire Line
+	12550 6350 2350 6350
+Connection ~ 10150 6350
+Connection ~ 9550 6350
+Connection ~ 8950 6350
+Connection ~ 8350 6350
+Connection ~ 7750 6350
+Connection ~ 7150 6350
+Wire Wire Line
+	6550 6350 7150 6350
+Connection ~ 6550 6350
+Connection ~ 5950 6350
+Connection ~ 5350 6350
+Connection ~ 4750 6350
+Connection ~ 4150 6350
+Connection ~ 3550 6350
+Connection ~ 2950 6350
+Wire Wire Line
+	1500 8350 950  8350
+Wire Wire Line
+	950  8350 950  1200
+Wire Wire Line
+	3700 9700 3950 9700
+Wire Wire Line
+	3950 9700 3950 7300
+Wire Wire Line
+	3950 7300 1000 7300
+Wire Wire Line
+	1000 7300 1000 1900
+Wire Wire Line
+	1000 1900 1750 1900
+Wire Wire Line
+	1500 9100 1050 9100
+Wire Wire Line
+	1050 9100 1050 2600
+Wire Wire Line
+	1050 2600 1750 2600
+Wire Wire Line
+	1500 9250 1100 9250
+Wire Wire Line
+	1100 9250 1100 3300
+Wire Wire Line
+	1100 3300 1750 3300
+Wire Wire Line
+	1500 8950 1150 8950
+Wire Wire Line
+	1150 8950 1150 3950
+Wire Wire Line
+	1150 3950 1750 3950
+Wire Wire Line
+	1500 8800 1300 8800
+Wire Wire Line
+	1300 8800 1300 6050
+Wire Wire Line
+	1300 6050 1750 6050
+Wire Wire Line
+	3700 8800 3900 8800
+Wire Wire Line
+	3900 8800 3900 6600
+Wire Wire Line
+	3900 6600 1200 6600
+Wire Wire Line
+	1200 6600 1200 4650
+Wire Wire Line
+	1200 4650 1750 4650
+Wire Wire Line
+	3700 8650 3800 8650
+Wire Wire Line
+	3800 8650 3800 6800
+Wire Wire Line
+	3800 6800 1250 6800
+Wire Wire Line
+	1250 6800 1250 5350
+Wire Wire Line
+	1250 5350 1750 5350
+Wire Wire Line
+	12050 900  12050 5750
+Connection ~ 10750 1600
+Connection ~ 10750 900 
+Connection ~ 10750 2300
+Connection ~ 12050 1600
+Connection ~ 10750 3000
+Connection ~ 12050 2300
+Connection ~ 10750 3650
+Connection ~ 12050 3000
+Connection ~ 10750 4350
+Connection ~ 12050 3650
+Connection ~ 10750 5050
+Connection ~ 12050 4350
+Connection ~ 10750 5750
+Connection ~ 12050 5050
+Wire Wire Line
+	12550 1500 12550 6350
+Connection ~ 10750 2200
+Connection ~ 10750 1500
+Connection ~ 10750 2900
+Connection ~ 12550 2200
+Connection ~ 10750 3600
+Connection ~ 12550 2900
+Connection ~ 10750 4250
+Connection ~ 12550 3600
+Connection ~ 10750 4950
+Connection ~ 12550 4250
+Connection ~ 10750 5650
+Connection ~ 12550 4950
+Connection ~ 10750 6350
+Connection ~ 12550 5650
+$Comp
+L Screw_Terminal_1x02 J?
+U 1 1 5AB237DC
+P 7600 8100
+F 0 "J?" H 7600 8350 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 7450 8100 50  0000 C TNN
+F 2 "" H 7600 7875 50  0001 C CNN
+F 3 "" H 7575 8100 50  0001 C CNN
+	1    7600 8100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
