@@ -1,4 +1,4 @@
-update=Tue 20 Mar 2018 00:03:29 CET
+update=Sat 28 Apr 2018 22:53:51 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,7 @@ LibName28=contrib
 LibName29=valves
 LibName30=teensy-lc
 LibName31=LED
+LibName32=stepdown_d24v50f5
+LibName33=mic_max4466
 [general]
 version=1
